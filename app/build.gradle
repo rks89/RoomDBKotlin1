@@ -37,10 +37,10 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
 
-    compile "android.arch.persistence.room:runtime:1.1.0-alpha2"
+    implementation "android.arch.persistence.room:runtime:1.1.0-alpha2"
     annotationProcessor "android.arch.persistence.room:compiler:1.1.0-alpha2"
     kapt "android.arch.persistence.room:compiler:1.1.0-alpha2"
-    compile "org.jetbrains.anko:anko:0.10.4"
+    implementation "org.jetbrains.anko:anko:0.10.4"
     debugImplementation 'com.idescout.sql:sqlscout-server:4.1'
     releaseImplementation 'com.idescout.sql:sqlscout-server-noop:4.1'
 
